@@ -23,6 +23,9 @@ namespace GuessTheNumber
 
         public void Form2_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+
             label1.Text = "Guess a number from 1 to " + n;
             Random random = new Random();
             nr1 = random.Next(1, n);

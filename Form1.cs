@@ -36,7 +36,8 @@ namespace GuessTheNumber
 
         public void WitchCraft_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
